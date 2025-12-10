@@ -75,10 +75,10 @@ let result = A % 2 === 1 && B % 2 === 1;
 console.log(result);
 
 //9----
-let a = 4;
-let b = 1;
-let ever = a % 2 === 0 || b % 1 === 1;
-console.log(ever);
+// let a = 4;
+// let b = 1;
+// let ever = a % 2 === 0 || b % 1 === 1;
+// console.log(ever);
 
 //10----
 let d = 3;
@@ -120,3 +120,18 @@ if(L > K ) {
 //FOR👇
 
 //6----
+// let size1 = 2000;
+
+// for(let i = 1; i <= 2 ; i+= 0.1) {
+//     console.log( i.toFixed(1) + " kg konfet narxi = " + size1 *i);
+    
+// }
+
+//7----
+let a = 12;
+let b = 34;
+
+for(let i = a; i < b; i++) {
+    console.log();
+    
+}

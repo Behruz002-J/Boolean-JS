@@ -27,7 +27,6 @@
 
 //Boolean👇
 
-
 //1----
 // let isSon = 5;
 // let result = isSon > 0;
@@ -47,7 +46,7 @@
 // let B = 3;
 // let n = A < B;
 // console.log(n);
- 
+
 //5----
 
 // let A = 1;
@@ -84,7 +83,7 @@ console.log(result);
 let d = 3;
 let e = 6;
 let odd = d % 2 === 0 || e % 1 === 1;
-console.log( "it's  a number = " +  ever);
+console.log("it's  a number = " + ever);
 
 //THE END
 
@@ -94,12 +93,10 @@ console.log( "it's  a number = " +  ever);
 let son1 = 13;
 let son2 = 15;
 
-if(son1 > son2) {
-    console.log("son kichik ");
-    
-}else {
-    console.log( " katta son  = " + son2 );
-    
+if (son1 > son2) {
+  console.log("son kichik ");
+} else {
+  console.log(" katta son  = " + son2);
 }
 
 //7----
@@ -111,10 +108,10 @@ console.log("small tartib raqami =" + 107);
 //8----
 let K = 32;
 let L = 36;
-if(L > K ) {
-    console.log(L,K);
-}else {
-    console.log(K,L);
+if (L > K) {
+  console.log(L, K);
+} else {
+  console.log(K, L);
 }
 
 //FOR👇
@@ -124,14 +121,13 @@ if(L > K ) {
 
 // for(let i = 1; i <= 2 ; i+= 0.1) {
 //     console.log( i.toFixed(1) + " kg konfet narxi = " + size1 *i);
-    
+
 // }
 
 //7----
 let a = 12;
 let b = 34;
 
-for(let i = a; i < b; i++) {
-    console.log();
-    
+for (let i = a; i < b; i++) {
+  console.log();
 }

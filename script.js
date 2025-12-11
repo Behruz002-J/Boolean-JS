@@ -163,3 +163,24 @@ while(n > 0) {
   n = Math.floor(n / 10);
 }
 console.log(sum);
+
+//20----
+// let N = 3215;
+// let ikkibormi = false;
+
+// while (N > 0) {
+//     let sum = N % 10;
+//     if (sum === 2) {
+//         ikkibormi = true;
+//         break;
+//     }
+//     N = parseInt(N / 10);
+// }
+
+// if (ikkibormi) {
+//     console.log("ikki bor");
+// } else {
+//     console.log("ikki yo'q");
+// }
+
+// 21----

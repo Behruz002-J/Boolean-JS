@@ -146,12 +146,20 @@
 // console.log("qoldiq qismi =" + qoldiq);
 
 //18----
-  // let n = 13;
-  // let butun = 0;
-  // while((butun + 1) * n >=0) {
-  //   butun++;
-  // }
-  // let qoldiq = n - butun;
+//   let n = 165;
 
-  // console.log(butun);
-  // console.log(qoldiq);
+//  let m = n % 10;
+//  console.log("butun qismi = " + m);
+//  let a =Math.floor( n / 10) ;
+//  console.log(m*100 + a *1);
+ 
+//19---
+let n = 341;
+let sum = 0;
+while(n > 0) {
+  let number = n % 10;
+
+  sum = sum * 10 + number ;
+  n = Math.floor(n / 10);
+}
+console.log(sum);

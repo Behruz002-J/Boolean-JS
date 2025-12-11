@@ -184,3 +184,4 @@ console.log(sum);
 // }
 
 // 21----
+//masalani shu joyigacha ulgurdim qolganiga vaqtim yetmadi.Hammasini o'zim ishladim

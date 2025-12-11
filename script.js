@@ -68,10 +68,10 @@
 // console.log(result);
 
 //8----
-let A = 9;
-let B = 13;
-let result = A % 2 === 1 && B % 2 === 1;
-console.log(result);
+// let A = 9;
+// let B = 13;
+// let result = A % 2 === 1 && B % 2 === 1;
+// console.log(result);
 
 //9----
 // let a = 4;
@@ -80,39 +80,39 @@ console.log(result);
 // console.log(ever);
 
 //10----
-let d = 3;
-let e = 6;
-let odd = d % 2 === 0 || e % 1 === 1;
-console.log("it's  a number = " + ever);
+// let d = 3;
+// let e = 6;
+// let odd = d % 2 === 0 || e % 1 === 1;
+// console.log("it's  a number = " + ever);
 
 //THE END
 
 //IF👇
 
 //6----
-let son1 = 13;
-let son2 = 15;
+// let son1 = 13;
+// let son2 = 15;
 
-if (son1 > son2) {
-  console.log("son kichik ");
-} else {
-  console.log(" katta son  = " + son2);
-}
+// if (son1 > son2) {
+//   console.log("son kichik ");
+// } else {
+//   console.log(" katta son  = " + son2);
+// }
 
 //7----
-let big = 1200;
-let small = 344;
-console.log("small tartib raqami =" + 107);
+// let big = 1200;
+// let small = 344;
+// console.log("small tartib raqami =" + 107);
 //Ustoz tushuntirgandek
 
 //8----
-let K = 32;
-let L = 36;
-if (L > K) {
-  console.log(L, K);
-} else {
-  console.log(K, L);
-}
+// let K = 32;
+// let L = 36;
+// if (L > K) {
+//   console.log(L, K);
+// } else {
+//   console.log(K, L);
+// }
 
 //FOR👇
 
@@ -125,9 +125,33 @@ if (L > K) {
 // }
 
 //7----
-let a = 12;
-let b = 34;
+// let a = 12;
+// let b = 34;
 
-for (let i = a; i < b; i++) {
-  console.log();
-}
+// for (let i = a; i <= b; i++) {
+//   console.log(i);
+// }
+
+//while👇
+
+//17----
+// let a = 13;
+// let b = 6;
+// let butun = 0;
+// while((butun + 1) * b <= a) {
+//   butun++;
+// }
+// let qoldiq = a - (butun * b);
+// console.log("Butun qismi =" + butun);
+// console.log("qoldiq qismi =" + qoldiq);
+
+//18----
+  // let n = 13;
+  // let butun = 0;
+  // while((butun + 1) * n >=0) {
+  //   butun++;
+  // }
+  // let qoldiq = n - butun;
+
+  // console.log(butun);
+  // console.log(qoldiq);

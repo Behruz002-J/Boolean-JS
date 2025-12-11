@@ -134,6 +134,19 @@
 
 //while👇
 
+//16----
+
+const r = 10;
+let index = 2;
+let yk = 10;
+
+while(yk <  200) {
+  console.log(yk + yk / 100 * r, index);
+  yk = yk + yk /100 * r;
+  index++;
+  
+}
+//33-kunga kelib sportchi 211 km ugurgan
 //17----
 // let a = 13;
 // let b = 6;
@@ -154,15 +167,15 @@
 //  console.log(m*100 + a *1);
  
 //19---
-let n = 341;
-let sum = 0;
-while(n > 0) {
-  let number = n % 10;
+// let n = 341;
+// let sum = 0;
+// while(n > 0) {
+//   let number = n % 10;
 
-  sum = sum * 10 + number ;
-  n = Math.floor(n / 10);
-}
-console.log(sum);
+//   sum = sum * 10 + number ;
+//   n = Math.floor(n / 10);
+// }
+// console.log(sum);
 
 //20----
 // let N = 3215;

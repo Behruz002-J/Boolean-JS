@@ -138,11 +138,11 @@
 
 const r = 10;
 let index = 2;
-let yk = 10;
+let runkm = 10;
 
-while(yk <  200) {
-  console.log(yk + yk / 100 * r, index);
-  yk = yk + yk /100 * r;
+while(runkm <  200) {
+  console.log(runkm + runkm / 100 * r, index);
+  runkm = runkm + runkm /100 * r;
   index++;
   
 }

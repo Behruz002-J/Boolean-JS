@@ -137,13 +137,13 @@
 //16----
 
 const r = 10;
-let index = 2;
+let day = 2;
 let runkm = 10;
 
 while(runkm <  200) {
-  console.log(runkm + runkm / 100 * r, index);
+  console.log(runkm + runkm / 100 * r, day);
   runkm = runkm + runkm /100 * r;
-  index++;
+  day++;
   
 }
 //33-kunga kelib sportchi 211 km ugurgan
